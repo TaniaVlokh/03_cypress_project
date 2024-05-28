@@ -11,7 +11,7 @@ import BookPage from "../../pages/BookPage"
   return newDate;
 }
 
-describe('Book Trip',() => {
+describe('Book Trip', {tags: '@smoke'}, () => {
   beforeEach(() => {
     cy.visit('https://techglobal-training.com/frontend/project-3')
 
